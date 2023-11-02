@@ -2,13 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const handleClick = () => {
-    console.log('handleClick')
-  }
   return (
     <div className="App">
       <header className="App-header">
-        <img onClick={handleClick} src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
